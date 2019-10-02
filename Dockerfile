@@ -11,7 +11,7 @@ COPY . .
 RUN npm run build
 
 
-# Install nginx
+# Install nginxs
 FROM nginx
 
 EXPOSE 80
